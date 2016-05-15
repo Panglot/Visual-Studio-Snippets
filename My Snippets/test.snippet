@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>test</Title>
+			<Shortcut>test</Shortcut>
+			<Description>Code snippet for main code loop.
+Note: You must remove the arguments from Main method to avoid errors. To stop the loop close the console or stop the program. This is intended for basic programs.</Description>
+			<Author>SkyLordPanglot</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal Editable="false">
+					<ID>SystemConsole</ID>					<Function>SimpleTypeName(global::System.Console)</Function>
+				</Literal>      
+			</Declarations>
+			<Code Language="csharp">
+			<![CDATA[$SystemConsole$.WriteLine("Press enter to start over.");
+            $SystemConsole$.ReadLine();
+            $SystemConsole$.Clear();
+            Main();
+			$end$]]>		
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
