@@ -9,6 +9,6 @@ Then in the manager you choose the appropriate language. My snippets are only fo
 
 <img src="https://raw.githubusercontent.com/Panglot/Visual-Studio-Snippets/master/TutorialImages/Snippets-Manager-Tutorial.jpg" alt="Snippets Manager Tutorial Image"/>
 
-When you import your snippet you must choose a folder from the available  and then click finnish.
+When you import your snippet you must choose a folder from the available  and then click finish.
 
 <img src="https://raw.githubusercontent.com/Panglot/Visual-Studio-Snippets/master/TutorialImages/Finnish-Importing-Tutorial.jpg" alt="Finnish Importing Tutorial Image"/>
